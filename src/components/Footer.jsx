@@ -56,7 +56,7 @@ function Footer() {
         <div>
             <button>VIRTUAL TOUR</button>
             <button>APPLY NOW</button>
-            <button>fedena LOGIN</button>
+            <button>FEDENA LOGIN</button>
         </div>
     </div>
 </footer>
