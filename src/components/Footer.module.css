@@ -1,0 +1,90 @@
+
+.footer > div:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    box-shadow: 0px -6px 20px 0px #00000029;
+}
+.footer > div:first-child >  div:first-child h2{
+    margin: 0;
+    white-space: nowrap;
+}
+.footer > div:first-child > div:first-child h2:first-child{
+    margin-left: -50%;
+}
+.footer > div:first-child >  div:first-child h2:last-child{
+    color: #b90124;
+}
+.footer > div:first-child > div:first-child ~ div{
+    margin-left: 25px;
+}
+.footer > div:first-child > div:first-child ~ div > div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.footer > div:first-child > div:first-child ~ div > div > hr{
+    height: 1px;
+    width: 10px;
+    background-color: black;
+    border: none;
+    margin: 0;
+}
+.footer > div:last-child{
+    display: flex;
+    aspect-ratio: 16/6;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+.footer > div:last-child::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.676);
+}
+.footer > div:last-child > *{
+    position: relative;
+}
+.footer > div:last-child > div:first-child{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+.footer > div:last-child > div:first-child h2{
+    margin: 0;
+    font-size: 30px;
+}
+.footer > div:last-child > div:first-child h2:last-of-type{
+    margin-left: 100px;
+    color: #b90124;
+    font-size: 40px;
+}
+.footer > div:last-child > div:first-child p{
+    max-width: 80%;
+    margin: 20px auto;
+}
+.footer > div:last-child > div:first-child > div{
+    display: flex;
+    max-width: 80%;
+    margin: 20px auto;
+}
+.footer > div:last-child > div:last-child{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.footer > div:last-child > div:last-child button{
+    padding: 10px 20px;
+    background-color: #b90124;
+    outline: none;
+    border: none;
+    color: white;
+}

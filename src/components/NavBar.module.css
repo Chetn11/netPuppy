@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #b90124 ;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    padding:5px;
+    margin-left: -80px;
+    
+}
+
+.navItems>a{
+    color: white;
+    font-family: "TT Chocolates Trl";
+    font-size: medium;
+    text-decoration: none;
+    margin: 20px;
+
+}
+.Navbar>.navItems>a:hover{
+    transition: all .2s;
+    transform: scale(1.5);
+}
+
+.Navbar> .nav_toggle{
+    display: none;
+
+}
