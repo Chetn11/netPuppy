@@ -1,6 +1,6 @@
 ## Deployed Link
 
-You can access the deployed version of NetPuppy [here]().
+You can access the deployed version of NetPuppy [here](https://net-puppy.vercel.app/).
 
 ## Tech Stack
 - ReactJs
@@ -17,5 +17,5 @@ To use NetPuppy locally->
 ## Screenshots
 
 
-![Screenshot 1]()
+![Screenshot 1](https://github.com/Chetn11/netPuppy/blob/main/src/ss/ss1.PNG)
 ![Screenshot 1]()
