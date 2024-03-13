@@ -16,6 +16,10 @@ To use NetPuppy locally->
 
 ## Screenshots
 
-
+Desktop Screen
 ![Screenshot 1](https://github.com/Chetn11/netPuppy/blob/main/src/ss/ss1.PNG)
 ![Screenshot 1](https://github.com/Chetn11/netPuppy/blob/main/src/ss/ss2.PNG)
+
+Mobile Screen
+![Screenshot 1](https://github.com/Chetn11/netPuppy/blob/main/src/ss/ss5.PNG)
+![Screenshot 1](https://github.com/Chetn11/netPuppy/blob/main/src/ss/ss3.PNG)
