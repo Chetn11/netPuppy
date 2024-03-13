@@ -18,4 +18,4 @@ To use NetPuppy locally->
 
 
 ![Screenshot 1](https://github.com/Chetn11/netPuppy/blob/main/src/ss/ss1.PNG)
-![Screenshot 1]()
+![Screenshot 1](https://github.com/Chetn11/netPuppy/blob/main/src/ss/ss2.PNG)
