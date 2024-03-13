@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
 }
-
+.mainContainer{
+    max-width: 1200px;
+    margin: auto;
+}
 .articalSection{
     display: flex;
     padding: 50px;
@@ -160,4 +163,325 @@
     font-size: 1rem;
     color: #DBC79F;
     transition: box-shadow .5s;
+}
+
+
+.TIS{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.TIS> h1{
+    width: 100%;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.TIS > h1 span{
+    color:#B90124;
+}
+.TIS > div{
+    flex: 1;
+    width: 50%;
+}
+.TIS > div:first-of-type{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.TIS> div:first-of-type h3{
+    font-size: 23px;
+    margin: 0;
+    padding-right: 50px;
+}
+.TIS > div:first-of-type h3 + h3{
+    color:#B90124;
+    font-size: 30px;
+    margin-left: 15%;
+    padding-right: 50px;
+}
+.TIS> div:first-of-type p{
+    margin-top: 50px;
+    padding-right: 50px;
+}
+.TIS > div:last-of-type {
+    display: flex;
+}
+.TIS> div:last-of-type > img{
+    border-radius: 5px;
+    width: calc(100% - 150px);
+    margin-right: 50px;
+    object-fit: cover;
+}
+.TIS> div:last-of-type > ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.TIS> div:last-of-type > ul li{
+    text-align: center;
+    font-size: .9rem;
+    border-radius: 5px;
+    padding: 5px;
+}
+.TIS > div:last-of-type > ul li:last-of-type{
+    background-color:#B90124;
+}
+.TIS > div:last-of-type > ul img{
+    height: min(5vmax, 40px);
+    aspect-ratio: 1/1;
+}
+
+
+.report{
+    padding: 50px;
+}
+.report > div:first-child{
+    background-size: 100%;
+    position: relative;
+    background-position: 0 -100px;
+    background-repeat: no-repeat;
+    aspect-ratio: 16/7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.report > div:first-child::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.437);
+}
+.report > div:first-child > *{
+    position: relative;
+}
+.report > div:first-child > img{
+    height: 50px;
+    width: 50px;
+    filter: invert(40%) brightness(200%);
+}
+.report > div:first-child > div h3{
+    margin: 0;
+    color: white;
+    white-space: nowrap;
+    font-size: 25px;
+}
+.report > div:first-child > div h3:last-of-type{
+    margin-left: 50%;
+}
+.report > div:last-child{
+    display: flex;
+    width: 80%;
+    background-color: #B90124;
+    margin: auto;
+    transform: translateY(-50%);
+    padding: 15px 30px;
+    border-radius: 5px;
+    gap: 10px;
+}
+.report > div:last-child > div{
+    text-align: center;
+}
+.report > div:last-child span{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+}
+.report > div:last-child p{
+    font-size: 1rem;
+    margin: 0;
+    margin-top: 10px;
+    color: white;
+}
+
+
+.rank{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+    background-color: #F8F5F0;
+    flex-wrap: wrap;
+}
+.rank > div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    border-radius: 5px;
+    padding: 20px;
+    aspect-ratio: 1/1;
+    box-shadow: 0px 5px 20px 0px #0000001a;
+    flex-shrink: 0;
+}
+.rank > div img{
+    height: 50px;
+}
+.rank > div :is(p, h3, h2){
+    margin: 0;
+}
+.rank > div h3{
+    white-space: nowrap;
+    font-size: larger;
+    color: var(--primary);
+}
+.rank> div:first-child{
+    border: 2px solid #B90124;
+    flex: 1.5;
+    gap: 10px;
+    background-color: white;
+}
+.rank > div:nth-child(2){
+    flex: 0;
+    box-shadow: none
+}
+.rank > div:nth-child(2) img{
+    rotate: -90deg;
+}
+.rank > div:nth-child(2) ~ div{
+    background-color: #B90124;
+    color: white;
+}
+.rank > div:nth-child(2) ~ div p{
+    font-size: 14px;
+}
+.rank > div:nth-child(2) ~ div h3{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.parents{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    align-items: center;
+}
+.parents > div{
+    flex: 1;
+}
+.parents > div:first-child{
+    padding: 20px;
+}
+.parents> div:first-child h1{
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.parents> div:first-child h1:last-of-type{
+    color: var(--primary);
+    font-style: italic;
+}
+.parents> div:first-child hr{
+    width: 80%;
+    background-color: #B90124;
+    border: none;
+    height: 2px;
+    margin-bottom: 50px;
+}
+.parents> div:last-child{
+    display: flex;
+    position: relative;
+}
+.parents> div:last-child > div:first-child{
+    width: 50%;
+    aspect-ratio: 9/16;
+    background-size: 300%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.parents> div:last-child > div:first-child span{
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+.parents> div:last-child > div:last-child{
+    background-color: #B90124;
+    position: absolute;
+    height: 100%;
+    width: 75%;
+    left: 0;
+    z-index: -1;
+    margin-left: 25%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+@media screen and (max-width: 750px){
+    html{
+        font-size: 14px;
+    }
+    .articalSection > div:nth-child(2){
+        display: none;
+    }
+    .TIS{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .TIS> div{
+        width: 100%;
+        align-items: center;
+    }
+    .TIS > div:last-of-type{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .TIS > div:last-of-type > ul{
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 600px){
+    html{
+        font-size: 10px;
+    }
+    .articalSection{
+        flex-direction: column !important;
+    }
+    .articalSection > div:first-child button,
+    .details > div:last-child button{
+        display: none;
+    }
+    .details{
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    .rank{
+        flex-direction: column;
+    }
+    .rank> div:nth-child(2){
+        display: none;
+    }
+    .rank > div{
+        width: 50%;
+        min-width: 200px;
+    }
+    .parents{
+        flex-direction: column;
+    }
+    .parents> div:last-child{
+        width: 100%;
+    }
 }

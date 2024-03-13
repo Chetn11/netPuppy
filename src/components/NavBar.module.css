@@ -11,6 +11,7 @@
     background: #b90124 ;
 }
 .logo{
+    position: relative;
     width: 80px;
     height: 80px;
     flex-shrink: 0;
@@ -20,19 +21,47 @@
 }
 
 .navItems>a{
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
     color: white;
-    font-family: "TT Chocolates Trl";
-    font-size: medium;
+    transition: opacity .5s;
     text-decoration: none;
     margin: 20px;
 
 }
 .Navbar>.navItems>a:hover{
-    transition: all .2s;
-    transform: scale(1.5);
+    opacity: .5;
 }
 
-.Navbar> .nav_toggle{
-    display: none;
 
+
+
+@media screen and (max-width: 500px){
+
+    .Navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+    .navItems>a{
+        font-weight: 600;
+        font-size: 16px;
+        cursor: pointer;
+        color: white;
+        transition: opacity .5s;
+        text-decoration: none;
+        margin: 20px;
+    
+    }
+    .Navbar>.navItems>a:hover{
+        opacity: .5;
+    }
+    
+    .navItems{
+        display: flex;
+        flex-direction: column;
+    }
 }

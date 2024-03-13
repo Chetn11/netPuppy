@@ -88,3 +88,17 @@
     border: none;
     color: white;
 }
+
+@media screen and (max-width: 750px){
+    html{
+        font-size: 14px;
+    }
+    .footer > div:first-child{
+        flex-direction: column;
+    }
+    .footer > div:first-child > div:first-child ~ div{
+        margin-left: 0;
+        margin-top: 25px;
+    }
+    
+}
