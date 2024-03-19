@@ -339,7 +339,7 @@
     font-size: 30px;
 }
 .parents> div:first-child h1:last-of-type{
-    color: var(--primary);
+    color:#B90124;
     font-style: italic;
 }
 .parents> div:first-child hr{
