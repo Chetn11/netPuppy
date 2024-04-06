@@ -6,6 +6,7 @@ function BasicCard({heading,dec,url}) {
     <div>
       <div className={styles.card} style={{backgroundImage: `url(${url})`}}>
       <div>
+      
         <h2>{heading}</h2>
         <p>{dec}</p>
       </div>
